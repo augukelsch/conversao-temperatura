@@ -46,5 +46,5 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            augukelsch/aula-conversao-temperatura:v1
+            augukelsch/aula-conversao-temperatura:${{github.run_number}}
             augukelsch/aula-conversao-temperatura:latest
