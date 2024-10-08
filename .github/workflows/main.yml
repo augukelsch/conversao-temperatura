@@ -38,5 +38,5 @@ jobs:
           file: Dockerfile
           push: true
           tags: |
-            augukelsch:aula-conversao-temperatura:v1
-            augukelsch:aula-conversao-temperatura:latest
+            augukelsch/aula-conversao-temperatura:v1
+            augukelsch/aula-conversao-temperatura:latest
